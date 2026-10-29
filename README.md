@@ -1,30 +1,20 @@
-# Finalidade do repositório
+# Solaria Docs
 
-Este repositório é o ponto de partida para novos serviços da Solaria. Ao criar um projeto a partir deste template, substitua os textos de exemplo, preencha as configurações da aplicação e mantenha a documentação alinhada ao que o serviço realmente oferece. Use `ARCHITECTURE.md` para registrar a organização do código, `RUNNING.md` para explicar como executar a aplicação e `DEPLOYMENT.md` para descrever seu deploy. O diretório `http/` reúne requisições de exemplo para chamar a API localmente durante o desenvolvimento.
+Portal público de documentação do Solaria, desenvolvido com React, Vite e @solaria.network/web-lib. Os documentos são JSON em `src/content/<documento>/<idioma>.json`, organizados por `src/content/manifest.json`, e os links do rodapé ficam em `src/content/footer.json`. A interface e os documentos estão disponíveis em português (pt-BR), inglês (en-US) e espanhol (es-ES). O idioma vem do cookie `solaria_language` ou do navegador, com pt-BR como padrão; os textos da interface ficam em `src/config/i18n/locales/<idioma>/docs.json`.
 
-## Estrutura inicial
+## Desenvolvimento
 
-O molde é completo de propósito. Consulte a [matriz por tipo de repositório](https://github.com/Solierrr/docs-warehouse/blob/main/templates/README.md#matriz-por-tipo) e remova depois, no repositório novo, os arquivos que o seu tipo não usa.
+```sh
+npm ci
+npm run dev
+npm run typecheck
+npm run lint
+npm run build
+npm run check
+```
 
-- `http/README.md`: convenções do cliente HTTP local.
-- `http/bruno.json`: manifesto da coleção Bruno.
-- `http/environments/local.bru`: ambiente local da API, com credenciais vazias.
-- `http/`: requisições `.bru` agrupadas em diretórios em inglês (`health/`, `authentication/`, `tasks/`).
-- `.dockerignore`: exclui segredos e arquivos locais do contexto de build da imagem.
-- `entrypoint.sh`: busca configuração no Infisical em runtime quando Universal Auth está configurado; sem essas credenciais, inicia diretamente o comando da imagem.
-- `Makefile`: comandos padrão da organização (`make help`); preencha o bloco "especifico deste repositorio" com os valores da stack, copiando o fragmento de `docs-warehouse/templates/make/`.
-- `.env.example`: nomes e valores de exemplo das variáveis necessárias; não inclua credenciais reais.
-- `infisical.yaml`: pastas do Infisical que o repositório lê e variáveis do `.env.example` que não vêm do Infisical. Mantenha alinhado com `VAULT_FOLDERS` do `Makefile`, ou remova junto com o workflow `infisical-env-check.yml` se o repositório não usa o Infisical.
-- `Dockerfile`: ponto de partida para empacotar a aplicação.
+O build gera páginas HTML para as rotas conhecidas e uma página 404. O Worker usa Cloudflare Workers Static Assets e domínio próprio, sem dependência do cluster. Para publicação, autentique o Wrangler e execute `npm run deploy`; é necessário ter acesso à zona Cloudflare do domínio.
 
-## Cliente HTTP local
+Os documentos legais e de integração contêm avisos de conteúdo pendente: não são políticas aprovadas nem documentação suficiente para verificação OAuth. PDFs podem ser colocados manualmente em `pdfs/` junto ao documento, mas download ainda não foi implementado. As traduções em inglês e espanhol são rascunhos e precisam de revisão antes da publicação.
 
-Abra `http/` como uma coleção Bruno e edite os arquivos `.bru` para incluir as rotas reais do serviço. Consulte [`http/README.md`](./http/README.md) para instruções e o template canônico em [`docs-warehouse/templates/http/`](https://github.com/Solierrr/docs-warehouse/tree/main/templates/http).
-
-Antes de disponibilizar o repositório, substitua as descrições de exemplo e revise os links e comandos para refletir a stack escolhida.
-
-## Inicialização da imagem no Render
-
-O `entrypoint.sh` recebe o comando da aplicação definido no `CMD` do `Dockerfile`. Se `INFISICAL_CLIENT_ID` e `INFISICAL_CLIENT_SECRET` estiverem presentes em runtime, ele autentica via Universal Auth e inicia esse comando sob `infisical run`; caso contrário, executa-o diretamente com as variáveis já injetadas pela plataforma. O projeto padrão é o workspace Solaria e o ambiente padrão é `qa`; ambos podem ser substituídos por `INFISICAL_PROJECT_ID` e `INFISICAL_ENV`.
-
-Para ativar o caminho Infisical, instale o CLI na imagem runtime e configure as credenciais como variáveis de runtime do Render, nunca como argumentos ou variáveis de build. Quando o Render já fornecer os segredos diretamente, não configure as credenciais Universal Auth e o launcher apenas inicia a aplicação. Use um launcher específico quando o serviço precisar preparar arquivos ou fazer outra transformação antes de iniciar.
+A dependência web-lib é consumida diretamente pelo tarball em vendor/, gerado do pacote 0.5.0 com correção local no Canvas para não apagar o desenho em notificações de resize sem mudança de tamanho. A correção vive no repositório web-lib; após publicação, substituir o tarball pela versão corrigida do npm. O grid branco usa o Canvas original com composição CSS, sem outra implementação do pattern.
