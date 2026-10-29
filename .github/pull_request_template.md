@@ -1,21 +1,19 @@
 ## Objetivo
 
-[preencha-me]
+[Descreva o problema e o resultado esperado.]
 
-## AlteraÃ§Ãµes
+## Alterações
 
-[preencha-me]
+[Liste as alterações principais.]
 
 ## Recursos impactados
 
-[preencha-me] | Sem impacto relevante
+[Informe as rotas, documentos, componentes ou configurações afetados.]
 
 ## Rollback
 
-[preencha-me] | NÃ£o vem ao caso
+[Explique como reverter a alteração.]
 
 ## Como validar
 
-[preencha-me] | Sem validaÃ§Ã£o necessÃ¡ria
-
-Closes #
+[Informe os comandos executados e a validação das páginas afetadas.]
