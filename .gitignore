@@ -65,3 +65,7 @@ Desktop.ini
 
 # Linux
 .directory
+
+node_modules/
+*.tsbuildinfo
+.wrangler/
