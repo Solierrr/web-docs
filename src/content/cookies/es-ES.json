@@ -1,0 +1,19 @@
+{
+  "id": "cookies",
+  "title": "Política de cookies",
+  "description": "Información sobre cookies y tecnologías similares.",
+  "version": null,
+  "updatedAt": null,
+  "sections": [
+    {
+      "id": "introducao",
+      "title": "Introducción",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Contenido en elaboración. Esta página se actualizará tras la revisión y aprobación de la información."
+        }
+      ]
+    }
+  ]
+}

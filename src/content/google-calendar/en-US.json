@@ -1,0 +1,19 @@
+{
+  "id": "google-calendar",
+  "title": "Google Calendar",
+  "description": "Information about the Google Calendar integration.",
+  "version": null,
+  "updatedAt": null,
+  "sections": [
+    {
+      "id": "introducao",
+      "title": "Introduction",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Content in preparation. This page will be updated after the information is reviewed and approved."
+        }
+      ]
+    }
+  ]
+}

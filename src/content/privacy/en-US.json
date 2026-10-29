@@ -1,0 +1,203 @@
+{
+  "id": "privacy",
+  "title": "Privacy policy",
+  "description": "Processing of personal data in Solaria.",
+  "version": null,
+  "updatedAt": null,
+  "sections": [
+    {
+      "id": "introducao",
+      "title": "About this policy",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This page will organize information about the processing of personal data related to the use of Solaria. The people responsible for the service must confirm the practices described before the final policy is published."
+        }
+      ]
+    },
+    {
+      "id": "responsavel",
+      "title": "Data controller",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Identification of the controller"
+        },
+        {
+          "type": "paragraph",
+          "text": "The identification of the data controller still needs to be confirmed."
+        },
+        {
+          "type": "heading",
+          "text": "Channels for privacy requests"
+        },
+        {
+          "type": "paragraph",
+          "text": "The appropriate channels for privacy requests also need to be confirmed."
+        }
+      ]
+    },
+    {
+      "id": "dados",
+      "title": "Personal data",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "What data is processed"
+        },
+        {
+          "type": "paragraph",
+          "text": "This section must explain which personal data is received, provided or generated while using the services."
+        },
+        {
+          "type": "heading",
+          "text": "Source of the information"
+        },
+        {
+          "type": "paragraph",
+          "text": "It must also indicate where this information comes from."
+        },
+        {
+          "type": "heading",
+          "text": "Categories and processing situations"
+        },
+        {
+          "type": "paragraph",
+          "text": "The categories of data and the situations in which they are processed depend on the review of the product's actual flows."
+        }
+      ]
+    },
+    {
+      "id": "finalidades",
+      "title": "Purposes and legal bases",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Purposes"
+        },
+        {
+          "type": "paragraph",
+          "text": "The final policy must explain why the data is processed."
+        },
+        {
+          "type": "heading",
+          "text": "Legal bases"
+        },
+        {
+          "type": "paragraph",
+          "text": "It must indicate the legal bases that apply to each purpose, according to the verified practices and the legal review."
+        }
+      ]
+    },
+    {
+      "id": "compartilhamento",
+      "title": "Data sharing",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Recipients and service providers"
+        },
+        {
+          "type": "paragraph",
+          "text": "This section must identify the categories of recipients and service providers and the purposes of the sharing."
+        },
+        {
+          "type": "heading",
+          "text": "International transfers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Any international transfers must be described, where applicable."
+        }
+      ]
+    },
+    {
+      "id": "integracoes",
+      "title": "Integrations with external services",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Data accessed and purpose"
+        },
+        {
+          "type": "paragraph",
+          "text": "The information about integrations, including Google Calendar, must describe the data accessed and the purpose of the access."
+        },
+        {
+          "type": "heading",
+          "text": "Managing or revoking authorization"
+        },
+        {
+          "type": "paragraph",
+          "text": "It must also explain how users can manage or revoke the authorization, according to the integration actually implemented."
+        }
+      ]
+    },
+    {
+      "id": "armazenamento",
+      "title": "Storage, security and retention",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Storage and security"
+        },
+        {
+          "type": "paragraph",
+          "text": "The information about storage and security measures must reflect the processes actually adopted."
+        },
+        {
+          "type": "heading",
+          "text": "Retention and deletion"
+        },
+        {
+          "type": "paragraph",
+          "text": "Retention and deletion periods must also reflect the processes adopted. These points are awaiting confirmation."
+        }
+      ]
+    },
+    {
+      "id": "direitos",
+      "title": "Rights and requests",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Rights of data subjects"
+        },
+        {
+          "type": "paragraph",
+          "text": "The final version must inform the rights that apply to data subjects."
+        },
+        {
+          "type": "heading",
+          "text": "How to submit requests"
+        },
+        {
+          "type": "paragraph",
+          "text": "It must explain how to submit requests for access, correction or deletion, among others provided for by law. The procedure and the responsible channel are yet to be defined."
+        }
+      ]
+    },
+    {
+      "id": "contato",
+      "title": "Contact and updates",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Privacy channel"
+        },
+        {
+          "type": "paragraph",
+          "text": "The privacy channel will be announced after the policy is defined and approved."
+        },
+        {
+          "type": "heading",
+          "text": "Update date and versions"
+        },
+        {
+          "type": "paragraph",
+          "text": "The update date and the version history will be announced after the policy is defined and approved."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": "privacy",
+  "title": "Política de privacidad",
+  "description": "Tratamiento de datos personales en Solaria.",
+  "version": null,
+  "updatedAt": null,
+  "sections": [
+    {
+      "id": "introducao",
+      "title": "Sobre esta política",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Esta página organizará información sobre el tratamiento de datos personales relacionado con el uso de Solaria. Los responsables del servicio deberán confirmar las prácticas descritas antes de la publicación de la política definitiva."
+        }
+      ]
+    },
+    {
+      "id": "responsavel",
+      "title": "Responsable del tratamiento",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Identificación del responsable"
+        },
+        {
+          "type": "paragraph",
+          "text": "La identificación del responsable del tratamiento aún debe confirmarse."
+        },
+        {
+          "type": "heading",
+          "text": "Canales para solicitudes de privacidad"
+        },
+        {
+          "type": "paragraph",
+          "text": "Los canales adecuados para las solicitudes de privacidad también deben confirmarse."
+        }
+      ]
+    },
+    {
+      "id": "dados",
+      "title": "Datos personales",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Qué datos se tratan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Esta sección deberá explicar qué datos personales se reciben, se proporcionan o se generan durante el uso de los servicios."
+        },
+        {
+          "type": "heading",
+          "text": "Origen de la información"
+        },
+        {
+          "type": "paragraph",
+          "text": "También deberá indicar de dónde proviene esta información."
+        },
+        {
+          "type": "heading",
+          "text": "Categorías y situaciones de tratamiento"
+        },
+        {
+          "type": "paragraph",
+          "text": "Las categorías de datos y las situaciones en que se tratan dependen de la revisión de los flujos reales del producto."
+        }
+      ]
+    },
+    {
+      "id": "finalidades",
+      "title": "Finalidades y bases legales",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Finalidades"
+        },
+        {
+          "type": "paragraph",
+          "text": "La política final deberá explicar por qué se tratan los datos."
+        },
+        {
+          "type": "heading",
+          "text": "Bases legales"
+        },
+        {
+          "type": "paragraph",
+          "text": "Deberá indicar las bases legales aplicables a cada finalidad, según las prácticas verificadas y la revisión jurídica."
+        }
+      ]
+    },
+    {
+      "id": "compartilhamento",
+      "title": "Compartición de datos",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Destinatarios y proveedores de servicios"
+        },
+        {
+          "type": "paragraph",
+          "text": "Esta sección deberá identificar las categorías de destinatarios y proveedores de servicios y las finalidades de la compartición de datos."
+        },
+        {
+          "type": "heading",
+          "text": "Transferencias internacionales"
+        },
+        {
+          "type": "paragraph",
+          "text": "Las eventuales transferencias internacionales deberán describirse, cuando sean aplicables."
+        }
+      ]
+    },
+    {
+      "id": "integracoes",
+      "title": "Integraciones con servicios externos",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Datos accedidos y finalidad"
+        },
+        {
+          "type": "paragraph",
+          "text": "La información sobre integraciones, incluido Google Calendar, deberá describir los datos accedidos y la finalidad del acceso."
+        },
+        {
+          "type": "heading",
+          "text": "Gestionar o revocar la autorización"
+        },
+        {
+          "type": "paragraph",
+          "text": "También deberá explicar cómo el usuario podrá gestionar o revocar la autorización, según la integración efectivamente implementada."
+        }
+      ]
+    },
+    {
+      "id": "armazenamento",
+      "title": "Almacenamiento, seguridad y conservación",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Almacenamiento y seguridad"
+        },
+        {
+          "type": "paragraph",
+          "text": "La información sobre almacenamiento y medidas de seguridad deberá reflejar los procesos efectivamente adoptados."
+        },
+        {
+          "type": "heading",
+          "text": "Conservación y eliminación"
+        },
+        {
+          "type": "paragraph",
+          "text": "Los plazos de conservación y eliminación también deberán reflejar los procesos adoptados. Estos puntos están pendientes de confirmación."
+        }
+      ]
+    },
+    {
+      "id": "direitos",
+      "title": "Derechos y solicitudes",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Derechos de los titulares de datos"
+        },
+        {
+          "type": "paragraph",
+          "text": "La versión final deberá informar los derechos aplicables a los titulares de los datos."
+        },
+        {
+          "type": "heading",
+          "text": "Cómo enviar solicitudes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Deberá explicar cómo enviar solicitudes de acceso, rectificación o eliminación, entre otras previstas en la legislación. El procedimiento y el canal responsable aún se definirán."
+        }
+      ]
+    },
+    {
+      "id": "contato",
+      "title": "Contacto y actualización",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Canal de privacidad"
+        },
+        {
+          "type": "paragraph",
+          "text": "El canal de privacidad se informará tras la definición y aprobación de la política."
+        },
+        {
+          "type": "heading",
+          "text": "Fecha de actualización y versiones"
+        },
+        {
+          "type": "paragraph",
+          "text": "La fecha de actualización y el historial de versiones se informarán tras la definición y aprobación de la política."
+        }
+      ]
+    }
+  ]
+}

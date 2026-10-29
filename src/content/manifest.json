@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "id": "legal",
+      "documents": [
+        "privacy",
+        "terms",
+        "cookies"
+      ]
+    },
+    {
+      "id": "integrations",
+      "documents": [
+        "google-calendar"
+      ]
+    }
+  ]
+}

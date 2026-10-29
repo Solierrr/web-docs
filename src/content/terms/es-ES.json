@@ -1,0 +1,19 @@
+{
+  "id": "terms",
+  "title": "Términos de uso",
+  "description": "Condiciones de uso de la plataforma Solaria.",
+  "version": null,
+  "updatedAt": null,
+  "sections": [
+    {
+      "id": "introducao",
+      "title": "Introducción",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Contenido en elaboración. Esta página se actualizará tras la revisión y aprobación de la información."
+        }
+      ]
+    }
+  ]
+}
