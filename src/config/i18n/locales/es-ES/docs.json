@@ -1,0 +1,46 @@
+{
+  "layout": {
+    "skipLink": "Saltar al contenido",
+    "title": "Solaria Docs"
+  },
+  "header": {
+    "home": "Solaria Docs — inicio",
+    "github": "Repositorio en GitHub",
+    "language": "Idioma",
+    "navigation": "Enlaces y preferencias",
+    "expandMenu": "Expandir navegación",
+    "collapseMenu": "Contraer navegación"
+  },
+  "languages": {
+    "pt-BR": "Português",
+    "en-US": "English",
+    "es-ES": "Español"
+  },
+  "sidebar": {
+    "navigation": "Documentación"
+  },
+  "toc": {
+    "title": "En esta página"
+  },
+  "home": {
+    "title": "Documentación de Solaria",
+    "description": "Información pública sobre Solaria, organizada por tema.",
+    "documents": "Todos los documentos"
+  },
+  "categories": {
+    "legal": "Políticas",
+    "integrations": "Integraciones"
+  },
+  "footer": {
+    "navigation": "Proyecto, contacto y términos de uso",
+    "github": "Ver el código en GitHub",
+    "email": "Contactar por correo electrónico",
+    "terms": "Términos de uso"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "message": "El documento solicitado no existe.",
+    "action": "Volver al inicio",
+    "actionDescription": "Volver al inicio de la documentación"
+  }
+}
