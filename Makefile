@@ -4,14 +4,14 @@
 
 # ---- especifico deste repositorio ----
 VAULT_FOLDERS ?=
-INSTALL_CMD   ?=
-DEV_CMD       ?=
-BUILD_CMD     ?=
+INSTALL_CMD   ?= npm ci
+DEV_CMD       ?= npm run dev
+BUILD_CMD     ?= npm run build
 TEST_CMD      ?=
-LINT_CMD      ?=
+LINT_CMD      ?= npm run lint
 FORMAT_CMD    ?=
-CLEAN_PATHS   ?=
-DOCTOR_TOOLS  ?= git
+CLEAN_PATHS   ?= dist .wrangler
+DOCTOR_TOOLS  ?= git node npm
 
 # ---- padrao (nao editar por repositorio) ----
 INFISICAL_PROJECT_ID ?= 2296d19c-5f3b-41e1-afa3-fcde39966a71
