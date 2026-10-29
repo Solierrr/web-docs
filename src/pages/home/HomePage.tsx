@@ -9,18 +9,16 @@ export default function HomePage() {
 
   return (
     <main className="flex-1">
-      <section aria-labelledby="home-title" className="relative isolate flex min-h-80 items-center justify-between gap-8 overflow-hidden rounded-surface bg-orange p-8 md:p-16">
+      <section aria-label="Solaria" className="relative isolate flex min-h-80 items-center justify-center overflow-hidden rounded-surface bg-orange p-8 md:min-h-100 md:p-16">
         <Canvas variant="grid" backgroundColor="var(--color-white)" style={{ filter: "grayscale(1) invert(1) brightness(5)", mixBlendMode: "screen", maskImage: "none" }} />
-        <div className="relative max-w-136">
-          <h1 id="home-title" className="mb-4 text-title font-extra-bold leading-tight tracking-tight text-operational-ink md:text-display">
-            {t("home.title")}
-          </h1>
-          <p className="text-label font-semi-bold leading-8 text-operational-ink">{t("home.description")}</p>
-        </div>
-        <div aria-hidden="true" className="pointer-events-none relative hidden flex-none rounded-surface bg-white p-8 md:block">
-          <OrganicLogo paused width={6} decorative />
+        <div className="relative flex size-40 items-center justify-center rounded-full bg-white md:size-48">
+          <OrganicLogo width={7} motion="expressive" decorative />
         </div>
       </section>
+      <header className="mx-auto max-w-160 px-4 pt-10 text-center md:pt-14">
+        <h1 id="home-title" className="mb-4 text-title font-extra-bold leading-tight tracking-tight text-operational-ink">{t("home.title")}</h1>
+        <p className="text-label leading-8 text-operational-muted">{t("home.description")}</p>
+      </header>
       <section aria-label={t("home.documents")} className="grid grid-cols-1 gap-x-8 gap-y-10 pt-10 pb-16 md:grid-cols-2 lg:grid-cols-3">
         {categories.map((category) => (
           <article key={category.id} className="min-w-0">

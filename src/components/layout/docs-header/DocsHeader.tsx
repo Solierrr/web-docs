@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import { IconArrowLeft, IconDownload } from "@tabler/icons-react";
 import { useTranslation } from "react-i18next";
 import { GitHubIcon, ToolbarAction } from "@solaria.network/web-lib";
 import { LanguageSwitcher } from "./DocsHeader.reusable";
@@ -16,6 +18,8 @@ export default function DocsHeader({ home, open, toggle }: DocsHeaderProps) {
 
   return (
     <header className="navbar-frame z-30 w-full justify-between gap-2 bg-operational-shell!">
+      <div className="flex items-center gap-1 sm:gap-2">
+        {!home && <Link to="/" aria-label={t("header.home")} title={t("header.home")} className={actionClass}><IconArrowLeft size={20} stroke={1.75} aria-hidden="true" /></Link>}
       <ToolbarAction
         className={home ? undefined : "md:hidden"}
         icon={open ? "panelLeftClose" : "panelLeftOpen"}
@@ -24,10 +28,12 @@ export default function DocsHeader({ home, open, toggle }: DocsHeaderProps) {
         aria-expanded={open}
         onClick={toggle}
       />
+      </div>
       <div className="ml-auto flex items-center gap-1 sm:gap-2">
         <a href="https://github.com/Solierrr/web-docs" aria-label={t("header.github")} title="GitHub" target="_blank" rel="noopener noreferrer" className={actionClass}>
           <GitHubIcon size={20} />
         </a>
+        <a href="https://github.com/Solierrr/docs-reports/archive/refs/heads/main.zip" aria-label={t("header.downloadReports")} title={t("header.downloadReports")} className={actionClass}><IconDownload size={20} stroke={1.75} aria-hidden="true" /></a>
         <LanguageSwitcher />
       </div>
     </header>
