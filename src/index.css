@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,500..800;1,500..800&display=swap');
+@import "tailwindcss";
+@import "@solaria.network/web-lib/theme.css";
+@source "../node_modules/@solaria.network/web-lib/dist";
+
+@theme {
+  --text-display: 3.5rem;
+  --spacing-docs-sidebar: 17.5rem;
+}
+
+@utility text-copy {
+  @apply text-body leading-7 text-operational-muted;
+}
+
+@layer base {
+  body { @apply m-0 bg-operational-shell font-ui font-medium text-operational-ink; }
+
+  h1 { @apply text-title font-bold leading-9; }
+  h2 { @apply text-subtitle font-semi-bold leading-8; }
+  h3 { @apply text-label font-semi-bold leading-7; }
+
+  h1 a, h2 a, h3 a { font: inherit; }
+
+  button { font: inherit; }
+
+  :focus-visible { @apply outline-3 outline-offset-4 outline-orange-copper; }
+}
