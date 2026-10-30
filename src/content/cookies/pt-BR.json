@@ -1,17 +1,60 @@
 {
   "id": "cookies",
   "title": "Política de cookies",
-  "description": "Informações sobre cookies e tecnologias semelhantes.",
-  "version": null,
-  "updatedAt": null,
+  "description": "Como o Solaria usa cookies e armazenamento local.",
+  "version": "1.0",
+  "updatedAt": "2026-10-29",
   "sections": [
     {
-      "id": "introducao",
-      "title": "Introdução",
+      "id": "o-que-sao",
+      "title": "O que são",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Conteúdo em elaboração. Esta página será atualizada após revisão e aprovação das informações."
+          "text": "Cookies e o armazenamento local do navegador são pequenos registros guardados no seu aparelho para manter sessões e preferências."
+        }
+      ]
+    },
+    {
+      "id": "como-usamos",
+      "title": "Como usamos",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Armazenamento local: manter você conectado e lembrar preferências, como o idioma.",
+            "Cookies essenciais de segurança e de rede da Cloudflare, que protegem o site contra abuso.",
+            "Cookies e armazenamento dos provedores de login (Google e Microsoft), apenas quando você escolhe entrar por eles."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Não usamos cookies de publicidade nem de rastreamento entre sites."
+        }
+      ]
+    },
+    {
+      "id": "gerenciar",
+      "title": "Como gerenciar",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Você pode apagar ou bloquear cookies e dados do site nas configurações do navegador. Sem os dados essenciais, partes da plataforma, como o login, podem deixar de funcionar."
+        }
+      ]
+    },
+    {
+      "id": "contato",
+      "title": "Contato",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dúvidas: solaria.innetwork@gmail.com."
+        },
+        {
+          "type": "link",
+          "text": "Escrever para a equipe",
+          "href": "mailto:solaria.innetwork@gmail.com"
         }
       ]
     }

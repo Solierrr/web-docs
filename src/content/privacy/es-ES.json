@@ -1,9 +1,9 @@
 {
   "id": "privacy",
   "title": "Política de privacidad",
-  "description": "Tratamiento de datos personales en Solaria.",
-  "version": null,
-  "updatedAt": null,
+  "description": "Cómo Solaria trata los datos personales.",
+  "version": "1.0",
+  "updatedAt": "2026-10-29",
   "sections": [
     {
       "id": "introducao",
@@ -11,59 +11,52 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Esta página organizará información sobre el tratamiento de datos personales relacionado con el uso de Solaria. Los responsables del servicio deberán confirmar las prácticas descritas antes de la publicación de la política definitiva."
+          "text": "Solaria es un proyecto académico de marketplace de energía solar que conecta consumidores, profesionales y proveedores. Esta política explica qué datos personales tratamos, para qué, con quién los compartimos y cómo ejercer sus derechos, conforme a la Ley General de Protección de Datos de Brasil (Ley 13.709/2018, LGPD)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Se aplica al sitio web, a la aplicación web y a la aplicación móvil de Solaria."
         }
       ]
     },
     {
       "id": "responsavel",
-      "title": "Responsable del tratamiento",
+      "title": "Responsable y contacto",
       "blocks": [
         {
-          "type": "heading",
-          "text": "Identificación del responsable"
+          "type": "paragraph",
+          "text": "Solaria es mantenido por el equipo del proyecto Solaria Network, que actúa como responsable de los datos tratados en la plataforma."
         },
         {
           "type": "paragraph",
-          "text": "La identificación del responsable del tratamiento aún debe confirmarse."
+          "text": "Para cualquier asunto de privacidad, incluidas las solicitudes de titulares, escriba a solaria.innetwork@gmail.com. Ese mismo canal actúa como delegado de protección de datos."
         },
         {
-          "type": "heading",
-          "text": "Canales para solicitudes de privacidad"
-        },
-        {
-          "type": "paragraph",
-          "text": "Los canales adecuados para las solicitudes de privacidad también deben confirmarse."
+          "type": "link",
+          "text": "Escribir al canal de privacidad",
+          "href": "mailto:solaria.innetwork@gmail.com"
         }
       ]
     },
     {
       "id": "dados",
-      "title": "Datos personales",
+      "title": "Datos que tratamos",
       "blocks": [
         {
-          "type": "heading",
-          "text": "Qué datos se tratan"
+          "type": "list",
+          "items": [
+            "Cuenta: correo electrónico y contraseña. La contraseña se guarda solo como hash, nunca en texto plano.",
+            "Perfil: nombre, CPF (identificación fiscal brasileña), fecha de nacimiento, datos de contacto y foto.",
+            "Dirección y ubicación: direcciones y coordenadas que usted indica o elige en el mapa.",
+            "Empresa y actividad profesional: datos de la empresa, certificados y registros profesionales enviados para validación.",
+            "Contenido: mensajes, imágenes, propuestas, proyectos y demás información que usted publica o envía.",
+            "Dispositivo y uso: identificador de instalación, token de notificaciones, dirección IP y registros técnicos de funcionamiento y seguridad.",
+            "Inicio de sesión con Google o Microsoft: nombre, correo y foto de perfil proporcionados por el proveedor mediante Firebase Authentication."
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Esta sección deberá explicar qué datos personales se reciben, se proporcionan o se generan durante el uso de los servicios."
-        },
-        {
-          "type": "heading",
-          "text": "Origen de la información"
-        },
-        {
-          "type": "paragraph",
-          "text": "También deberá indicar de dónde proviene esta información."
-        },
-        {
-          "type": "heading",
-          "text": "Categorías y situaciones de tratamiento"
-        },
-        {
-          "type": "paragraph",
-          "text": "Las categorías de datos y las situaciones en que se tratan dependen de la revisión de los flujos reales del producto."
+          "text": "Recibimos estos datos directamente de usted, del proveedor de inicio de sesión que elija y del uso normal de la plataforma."
         }
       ]
     },
@@ -72,64 +65,97 @@
       "title": "Finalidades y bases legales",
       "blocks": [
         {
-          "type": "heading",
-          "text": "Finalidades"
+          "type": "list",
+          "items": [
+            "Crear y autenticar su cuenta: ejecución de contrato o de medidas precontractuales.",
+            "Operar el marketplace (catálogo, propuestas, proyectos y mensajes): ejecución de contrato.",
+            "Validar documentos de profesionales: ejecución de contrato e interés legítimo en mantener profesionales verificados.",
+            "Enviar correos transaccionales, como confirmación y recuperación de contraseña: ejecución de contrato.",
+            "Enviar notificaciones push: consentimiento, otorgado al permitir las notificaciones en el navegador o dispositivo.",
+            "Seguridad, prevención de fraudes y diagnóstico de fallos: interés legítimo.",
+            "Funciones de inteligencia artificial: ejecución de contrato y consentimiento al usar la función."
+          ]
         },
         {
           "type": "paragraph",
-          "text": "La política final deberá explicar por qué se tratan los datos."
-        },
-        {
-          "type": "heading",
-          "text": "Bases legales"
-        },
-        {
-          "type": "paragraph",
-          "text": "Deberá indicar las bases legales aplicables a cada finalidad, según las prácticas verificadas y la revisión jurídica."
+          "text": "No vendemos datos personales ni los usamos para publicidad de terceros."
         }
       ]
     },
     {
       "id": "compartilhamento",
-      "title": "Compartición de datos",
+      "title": "Compartición con proveedores de servicios",
       "blocks": [
         {
-          "type": "heading",
-          "text": "Destinatarios y proveedores de servicios"
+          "type": "paragraph",
+          "text": "Usamos proveedores que tratan datos por nuestra cuenta y solo para operar la plataforma:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Google (Firebase Authentication, Firebase Cloud Messaging, Google Maps y Google Cloud): inicio de sesión, notificaciones, mapas y alojamiento.",
+            "Microsoft: inicio de sesión con cuenta Microsoft.",
+            "Render y Google Cloud: alojamiento de las aplicaciones.",
+            "Aiven (PostgreSQL), MongoDB Atlas y Upstash (Redis): bases de datos y caché.",
+            "Cloudinary: almacenamiento de imágenes.",
+            "Brevo: envío de correos.",
+            "Cloudflare: red, protección y control de acceso.",
+            "Proveedores de modelos de lenguaje: procesamiento de los mensajes e imágenes enviados a las funciones de IA."
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Esta sección deberá identificar las categorías de destinatarios y proveedores de servicios y las finalidades de la compartición de datos."
-        },
-        {
-          "type": "heading",
-          "text": "Transferencias internacionales"
+          "text": "Algunos de estos proveedores almacenan o procesan datos fuera de Brasil. Esas transferencias se basan en los contratos y garantías de los proveedores, conforme a la LGPD."
         },
         {
           "type": "paragraph",
-          "text": "Las eventuales transferencias internacionales deberán describirse, cuando sean aplicables."
+          "text": "También podemos divulgar datos cuando la ley o una orden de autoridad lo exija."
         }
       ]
     },
     {
-      "id": "integracoes",
-      "title": "Integraciones con servicios externos",
+      "id": "google",
+      "title": "Datos de cuentas de Google",
       "blocks": [
         {
-          "type": "heading",
-          "text": "Datos accedidos y finalidad"
+          "type": "paragraph",
+          "text": "Cuando elige iniciar sesión con Google, recibimos su nombre, correo y foto de perfil mediante los ámbitos básicos openid, email y profile. Usamos esta información solo para crear y autenticar su cuenta en Solaria."
         },
         {
           "type": "paragraph",
-          "text": "La información sobre integraciones, incluido Google Calendar, deberá describir los datos accedidos y la finalidad del acceso."
-        },
-        {
-          "type": "heading",
-          "text": "Gestionar o revocar la autorización"
+          "text": "No accedemos a su Gmail, Drive, Contactos, Calendario ni a ningún otro dato de su cuenta de Google."
         },
         {
           "type": "paragraph",
-          "text": "También deberá explicar cómo el usuario podrá gestionar o revocar la autorización, según la integración efectivamente implementada."
+          "text": "El uso y la transferencia a cualquier otra aplicación de la información recibida de las API de Google se ajusta a la Política de Datos de Usuario de los Servicios de API de Google, incluidos los requisitos de Uso Limitado. No vendemos esta información, no la usamos para publicidad ni la transferimos a terceros, salvo a los proveedores indicados arriba para operar la plataforma."
+        },
+        {
+          "type": "paragraph",
+          "text": "Puede revocar el acceso en cualquier momento en la página de permisos de su cuenta de Google."
+        },
+        {
+          "type": "link",
+          "text": "Permisos de la cuenta de Google",
+          "href": "https://myaccount.google.com/permissions"
+        },
+        {
+          "type": "link",
+          "text": "Política de Datos de Usuario de los Servicios de API de Google",
+          "href": "https://developers.google.com/terms/api-services-user-data-policy"
+        }
+      ]
+    },
+    {
+      "id": "ia",
+      "title": "Funciones de inteligencia artificial",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Los asistentes de Solaria, el análisis de imágenes para texto alternativo y la validación de documentos usan inteligencia artificial. El contenido que usted envía a estas funciones se procesa en nuestros servicios y en proveedores de modelos de lenguaje."
+        },
+        {
+          "type": "paragraph",
+          "text": "No envíe datos sensibles ni de terceros que no pueda compartir. Las respuestas pueden contener errores y no sustituyen la valoración de un profesional habilitado."
         }
       ]
     },
@@ -138,64 +164,68 @@
       "title": "Almacenamiento, seguridad y conservación",
       "blocks": [
         {
-          "type": "heading",
-          "text": "Almacenamiento y seguridad"
+          "type": "paragraph",
+          "text": "Los datos se guardan en bases de datos gestionadas. Las conexiones usan HTTPS, las contraseñas se protegen con hash y el acceso interno se controla con credenciales de servicio."
         },
         {
           "type": "paragraph",
-          "text": "La información sobre almacenamiento y medidas de seguridad deberá reflejar los procesos efectivamente adoptados."
-        },
-        {
-          "type": "heading",
-          "text": "Conservación y eliminación"
-        },
-        {
-          "type": "paragraph",
-          "text": "Los plazos de conservación y eliminación también deberán reflejar los procesos adoptados. Estos puntos están pendientes de confirmación."
+          "text": "Conservamos los datos mientras su cuenta esté activa y el tiempo necesario para cumplir obligaciones legales o defender derechos. Al solicitar la eliminación de la cuenta, eliminamos o anonimizamos los datos personales, salvo que la ley exija conservarlos. Las copias de seguridad pueden mantener los datos por un periodo limitado hasta ser sustituidas."
         }
       ]
     },
     {
       "id": "direitos",
-      "title": "Derechos y solicitudes",
+      "title": "Sus derechos",
       "blocks": [
         {
-          "type": "heading",
-          "text": "Derechos de los titulares de datos"
+          "type": "paragraph",
+          "text": "Conforme a la LGPD puede, en cualquier momento:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "confirmar que tratamos sus datos y acceder a ellos;",
+            "corregir datos incompletos, inexactos o desactualizados;",
+            "solicitar la anonimización, el bloqueo o la eliminación de datos innecesarios o tratados en contra de la ley;",
+            "solicitar la portabilidad de los datos;",
+            "solicitar la eliminación de los datos tratados con su consentimiento;",
+            "saber con quién compartimos sus datos;",
+            "revocar el consentimiento y conocer las consecuencias de no consentir;",
+            "presentar una reclamación ante la Autoridad Nacional de Protección de Datos de Brasil (ANPD)."
+          ]
         },
         {
           "type": "paragraph",
-          "text": "La versión final deberá informar los derechos aplicables a los titulares de los datos."
-        },
-        {
-          "type": "heading",
-          "text": "Cómo enviar solicitudes"
-        },
+          "text": "Envíe su solicitud a solaria.innetwork@gmail.com. Respondemos en un plazo de 15 días."
+        }
+      ]
+    },
+    {
+      "id": "menores",
+      "title": "Menores de edad",
+      "blocks": [
         {
           "type": "paragraph",
-          "text": "Deberá explicar cómo enviar solicitudes de acceso, rectificación o eliminación, entre otras previstas en la legislación. El procedimiento y el canal responsable aún se definirán."
+          "text": "Solaria no está dirigido a menores de 18 años y no recopilamos datos de menores de forma intencional. Si identificamos una cuenta de un menor sin autorización de un responsable, será eliminada."
         }
       ]
     },
     {
       "id": "contato",
-      "title": "Contacto y actualización",
+      "title": "Contacto y actualizaciones",
       "blocks": [
         {
-          "type": "heading",
-          "text": "Canal de privacidad"
+          "type": "paragraph",
+          "text": "Dudas y solicitudes: solaria.innetwork@gmail.com."
         },
         {
           "type": "paragraph",
-          "text": "El canal de privacidad se informará tras la definición y aprobación de la política."
+          "text": "Podemos actualizar esta política. La versión y la fecha de la última actualización aparecen al inicio de esta página. Los cambios relevantes se comunicarán en la plataforma."
         },
         {
-          "type": "heading",
-          "text": "Fecha de actualización y versiones"
-        },
-        {
-          "type": "paragraph",
-          "text": "La fecha de actualización y el historial de versiones se informarán tras la definición y aprobación de la política."
+          "type": "link",
+          "text": "Escribir al canal de privacidad",
+          "href": "mailto:solaria.innetwork@gmail.com"
         }
       ]
     }

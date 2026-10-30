@@ -1,17 +1,46 @@
 {
   "id": "google-calendar",
-  "title": "Google Calendar",
-  "description": "Information about the Google Calendar integration.",
-  "version": null,
-  "updatedAt": null,
+  "title": "Google Calendar integration",
+  "description": "Status and rules for the Google Calendar integration.",
+  "version": "1.0",
+  "updatedAt": "2026-10-29",
   "sections": [
     {
-      "id": "introducao",
-      "title": "Introduction",
+      "id": "situacao",
+      "title": "Current status",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Content in preparation. This page will be updated after the information is reviewed and approved."
+          "text": "Today Solaria does not request access to Google Calendar and does not read or write events in your calendar. Sign-in with Google uses only the basic scopes openid, email and profile."
+        }
+      ]
+    },
+    {
+      "id": "regras",
+      "title": "Rules if the integration is enabled",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "We will ask for your explicit authorization before any access.",
+            "We will request only the scopes needed for the feature offered.",
+            "We will use calendar data only for that feature, with no advertising and no sale.",
+            "You will be able to revoke access at any time."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Use of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements. This page will be updated before the integration is launched."
+        },
+        {
+          "type": "link",
+          "text": "Google account permissions",
+          "href": "https://myaccount.google.com/permissions"
+        },
+        {
+          "type": "link",
+          "text": "Google API Services User Data Policy",
+          "href": "https://developers.google.com/terms/api-services-user-data-policy"
         }
       ]
     }
