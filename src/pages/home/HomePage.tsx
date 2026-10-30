@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Canvas, GroupAction, OrganicLogo, SurfaceGroup } from "@solaria.network/web-lib";
 import { categories, useDocuments } from "@/config/content/content";
@@ -19,6 +20,17 @@ export default function HomePage() {
         <h1 id="home-title" className="mb-4 text-title font-extra-bold leading-tight tracking-tight text-operational-ink">{t("home.title")}</h1>
         <p className="text-label leading-8 text-operational-muted">{t("home.description")}</p>
       </header>
+      <section aria-labelledby="home-about" className="mx-auto max-w-160 px-4 pt-10 text-left">
+        <h2 id="home-about" className="mb-3 text-sidebar font-extra-bold leading-6 text-operational-ink">{t("home.about.title")}</h2>
+        <p className="mb-3 text-label leading-8 text-operational-muted">{t("home.about.p1")}</p>
+        <p className="mb-3 text-label leading-8 text-operational-muted">{t("home.about.p2")}</p>
+        <p className="text-label leading-8 text-operational-muted">
+          {t("home.about.p3")}{" "}
+          <Link className="underline" to="/documentos/privacy">{t("home.about.privacy")}</Link>{" · "}
+          <Link className="underline" to="/documentos/terms">{t("home.about.terms")}</Link>{" · "}
+          <a className="underline" href="mailto:solaria.innetwork@gmail.com">{t("home.about.contact")}</a>
+        </p>
+      </section>
       <section aria-label={t("home.documents")} className="grid grid-cols-1 gap-x-8 gap-y-10 pt-10 pb-16 md:grid-cols-2 lg:grid-cols-3">
         {categories.map((category) => (
           <article key={category.id} className="min-w-0">
