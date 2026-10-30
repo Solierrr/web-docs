@@ -26,7 +26,16 @@
   "home": {
     "title": "Documentación de Solaria",
     "description": "Información pública sobre Solaria, organizada por tema.",
-    "documents": "Todos los documentos"
+    "documents": "Todos los documentos",
+    "about": {
+      "title": "Qué es Solaria",
+      "p1": "Solaria es un marketplace de energía solar. Reúne a consumidores, profesionales y proveedores en un solo lugar para comparar paneles solares, encontrar profesionales cualificados, recibir propuestas y seguir proyectos de instalación. Es un proyecto académico y las compras son ficticias.",
+      "p2": "Puede crear una cuenta con correo y contraseña o iniciar sesión con Google o Microsoft. Al iniciar sesión con Google, usamos solo su nombre, correo y foto de perfil, únicamente para identificarlo en Solaria.",
+      "p3": "Vea cómo tratamos sus datos y las reglas de uso:",
+      "privacy": "Política de privacidad",
+      "terms": "Términos de uso",
+      "contact": "Contacto"
+    }
   },
   "categories": {
     "legal": "Políticas",
