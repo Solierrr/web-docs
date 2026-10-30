@@ -2,16 +2,157 @@
   "id": "terms",
   "title": "Terms of use",
   "description": "Conditions for using the Solaria platform.",
-  "version": null,
-  "updatedAt": null,
+  "version": "1.0",
+  "updatedAt": "2026-10-29",
   "sections": [
     {
-      "id": "introducao",
-      "title": "Introduction",
+      "id": "aceitacao",
+      "title": "Acceptance",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Content in preparation. This page will be updated after the information is reviewed and approved."
+          "text": "By creating an account or using Solaria, you agree to these terms and to the Privacy policy. If you do not agree, do not use the platform."
+        }
+      ]
+    },
+    {
+      "id": "sobre",
+      "title": "What Solaria is",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Solaria is an academic solar energy marketplace project that connects consumers, professionals and suppliers."
+        },
+        {
+          "type": "paragraph",
+          "text": "The purchase flow is fictional: no real payment is processed, and products, prices and proposals are for demonstration only. No arrangement made on the platform binds Solaria."
+        }
+      ]
+    },
+    {
+      "id": "conta",
+      "title": "Account and access",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "You must be 18 or older and provide truthful information.",
+            "You are responsible for keeping your password safe and for everything that happens in your account.",
+            "Tell us immediately if you suspect misuse."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uso",
+      "title": "Acceptable use",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "You may not:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "use the platform for unlawful purposes or to deceive others;",
+            "submit offensive or discriminatory content or content that infringes third-party rights;",
+            "try to access accounts, systems or data without authorization;",
+            "overload, scrape or interfere with the service;",
+            "submit false documents or impersonate another person or company."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "profissionais",
+      "title": "Professionals, companies and content",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Professionals and suppliers are responsible for the information, documents and proposals they publish. Certificate validation is only a support and does not guarantee anyone's qualification."
+        },
+        {
+          "type": "paragraph",
+          "text": "You keep the rights to the content you submit and authorize us to store and display it on the platform to run the service."
+        }
+      ]
+    },
+    {
+      "id": "ia",
+      "title": "Artificial intelligence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Assistants and automatic analyses are informational and can be wrong. They do not replace the judgment of a qualified engineer or technical lead, nor the verification of standards such as NR-10."
+        }
+      ]
+    },
+    {
+      "id": "propriedade",
+      "title": "Intellectual property",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Solaria brand, code and platform design belong to the project team or its licensors. You may not copy or reuse them without permission, except as the open licenses of the repositories allow."
+        }
+      ]
+    },
+    {
+      "id": "responsabilidade",
+      "title": "Availability and liability",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Solaria is an academic and demonstration environment. It may become unavailable, be restarted or have data erased without notice. The service is provided as is."
+        },
+        {
+          "type": "paragraph",
+          "text": "To the extent permitted by law, the team is not liable for losses arising from use of the platform, from arrangements between users or from unavailability."
+        }
+      ]
+    },
+    {
+      "id": "encerramento",
+      "title": "Suspension and termination",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We may suspend or terminate accounts that breach these terms. You can ask to delete your account at any time through the privacy channel."
+        }
+      ]
+    },
+    {
+      "id": "alteracoes",
+      "title": "Changes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We may update these terms. The version and date appear at the top of the page. Continued use after a change means you accept the new version."
+        }
+      ]
+    },
+    {
+      "id": "lei",
+      "title": "Governing law",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These terms are governed by Brazilian law. Where the Consumer Defense Code applies, the courts of the consumer's domicile have jurisdiction."
+        }
+      ]
+    },
+    {
+      "id": "contato",
+      "title": "Contact",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Questions about these terms: solaria.innetwork@gmail.com."
+        },
+        {
+          "type": "link",
+          "text": "Write to the team",
+          "href": "mailto:solaria.innetwork@gmail.com"
         }
       ]
     }

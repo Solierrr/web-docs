@@ -1,17 +1,46 @@
 {
   "id": "google-calendar",
-  "title": "Google Calendar",
-  "description": "Información sobre la integración con Google Calendar.",
-  "version": null,
-  "updatedAt": null,
+  "title": "Integración con Google Calendar",
+  "description": "Estado y reglas de la integración con Google Calendar.",
+  "version": "1.0",
+  "updatedAt": "2026-10-29",
   "sections": [
     {
-      "id": "introducao",
-      "title": "Introducción",
+      "id": "situacao",
+      "title": "Situación actual",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Contenido en elaboración. Esta página se actualizará tras la revisión y aprobación de la información."
+          "text": "Hoy Solaria no solicita acceso a Google Calendar y no lee ni escribe eventos de su calendario. El inicio de sesión con Google usa solo los ámbitos básicos openid, email y profile."
+        }
+      ]
+    },
+    {
+      "id": "regras",
+      "title": "Reglas si se activa la integración",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Pediremos su autorización explícita antes de cualquier acceso.",
+            "Solicitaremos solo los ámbitos necesarios para la función ofrecida.",
+            "Usaremos los datos del calendario solo para esa función, sin publicidad y sin venta.",
+            "Podrá revocar el acceso en cualquier momento."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El uso de la información recibida de las API de Google se ajustará a la Política de Datos de Usuario de los Servicios de API de Google, incluidos los requisitos de Uso Limitado. Esta página se actualizará antes de lanzar la integración."
+        },
+        {
+          "type": "link",
+          "text": "Permisos de la cuenta de Google",
+          "href": "https://myaccount.google.com/permissions"
+        },
+        {
+          "type": "link",
+          "text": "Política de Datos de Usuario de los Servicios de API de Google",
+          "href": "https://developers.google.com/terms/api-services-user-data-policy"
         }
       ]
     }

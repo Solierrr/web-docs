@@ -1,9 +1,9 @@
 {
   "id": "privacy",
   "title": "Privacy policy",
-  "description": "Processing of personal data in Solaria.",
-  "version": null,
-  "updatedAt": null,
+  "description": "How Solaria handles personal data.",
+  "version": "1.0",
+  "updatedAt": "2026-10-29",
   "sections": [
     {
       "id": "introducao",
@@ -11,59 +11,52 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "This page will organize information about the processing of personal data related to the use of Solaria. The people responsible for the service must confirm the practices described before the final policy is published."
+          "text": "Solaria is an academic solar energy marketplace project that connects consumers, professionals and suppliers. This policy explains which personal data we process, why, who we share it with and how you can exercise your rights, in line with Brazil's General Data Protection Law (Law 13,709/2018, LGPD)."
+        },
+        {
+          "type": "paragraph",
+          "text": "It applies to the Solaria website, web app and mobile app."
         }
       ]
     },
     {
       "id": "responsavel",
-      "title": "Data controller",
+      "title": "Controller and contact",
       "blocks": [
         {
-          "type": "heading",
-          "text": "Identification of the controller"
+          "type": "paragraph",
+          "text": "Solaria is maintained by the Solaria Network project team, which acts as the controller of the data processed on the platform."
         },
         {
           "type": "paragraph",
-          "text": "The identification of the data controller still needs to be confirmed."
+          "text": "For any privacy matter, including data subject requests, write to solaria.innetwork@gmail.com. The same channel acts as our data protection officer."
         },
         {
-          "type": "heading",
-          "text": "Channels for privacy requests"
-        },
-        {
-          "type": "paragraph",
-          "text": "The appropriate channels for privacy requests also need to be confirmed."
+          "type": "link",
+          "text": "Write to the privacy channel",
+          "href": "mailto:solaria.innetwork@gmail.com"
         }
       ]
     },
     {
       "id": "dados",
-      "title": "Personal data",
+      "title": "Data we process",
       "blocks": [
         {
-          "type": "heading",
-          "text": "What data is processed"
+          "type": "list",
+          "items": [
+            "Account: email and password. The password is stored only as a hash, never in plain text.",
+            "Profile: name, CPF (Brazilian tax ID), date of birth, contact details and photo.",
+            "Address and location: addresses and coordinates you enter or pick on the map.",
+            "Company and professional activity: company details, certificates and professional records submitted for validation.",
+            "Content: messages, images, proposals, projects and other information you publish or send.",
+            "Device and usage: installation identifier, notification token, IP address and technical logs for operation and security.",
+            "Sign-in with Google or Microsoft: name, email and profile picture provided by the provider through Firebase Authentication."
+          ]
         },
         {
           "type": "paragraph",
-          "text": "This section must explain which personal data is received, provided or generated while using the services."
-        },
-        {
-          "type": "heading",
-          "text": "Source of the information"
-        },
-        {
-          "type": "paragraph",
-          "text": "It must also indicate where this information comes from."
-        },
-        {
-          "type": "heading",
-          "text": "Categories and processing situations"
-        },
-        {
-          "type": "paragraph",
-          "text": "The categories of data and the situations in which they are processed depend on the review of the product's actual flows."
+          "text": "We receive this data from you, from the sign-in provider you choose and from normal use of the platform."
         }
       ]
     },
@@ -72,64 +65,97 @@
       "title": "Purposes and legal bases",
       "blocks": [
         {
-          "type": "heading",
-          "text": "Purposes"
+          "type": "list",
+          "items": [
+            "Creating and authenticating your account: performance of a contract or pre-contractual steps.",
+            "Running the marketplace (catalog, proposals, projects and messages): performance of a contract.",
+            "Validating professionals' documents: performance of a contract and legitimate interest in keeping professionals verified.",
+            "Sending transactional emails such as confirmation and password recovery: performance of a contract.",
+            "Sending push notifications: consent, given when you allow notifications in your browser or device.",
+            "Security, fraud prevention and troubleshooting: legitimate interest.",
+            "Artificial intelligence features: performance of a contract and consent when you use the feature."
+          ]
         },
         {
           "type": "paragraph",
-          "text": "The final policy must explain why the data is processed."
-        },
-        {
-          "type": "heading",
-          "text": "Legal bases"
-        },
-        {
-          "type": "paragraph",
-          "text": "It must indicate the legal bases that apply to each purpose, according to the verified practices and the legal review."
+          "text": "We do not sell personal data and we do not use it for third-party advertising."
         }
       ]
     },
     {
       "id": "compartilhamento",
-      "title": "Data sharing",
+      "title": "Sharing with service providers",
       "blocks": [
         {
-          "type": "heading",
-          "text": "Recipients and service providers"
+          "type": "paragraph",
+          "text": "We use providers that process data on our behalf and only to run the platform:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Google (Firebase Authentication, Firebase Cloud Messaging, Google Maps and Google Cloud): sign-in, notifications, maps and hosting.",
+            "Microsoft: sign-in with a Microsoft account.",
+            "Render and Google Cloud: application hosting.",
+            "Aiven (PostgreSQL), MongoDB Atlas and Upstash (Redis): databases and cache.",
+            "Cloudinary: image storage.",
+            "Brevo: email delivery.",
+            "Cloudflare: network, protection and access control.",
+            "Language model providers: processing of the messages and images sent to AI features."
+          ]
         },
         {
           "type": "paragraph",
-          "text": "This section must identify the categories of recipients and service providers and the purposes of the sharing."
-        },
-        {
-          "type": "heading",
-          "text": "International transfers"
+          "text": "Some of these providers store or process data outside Brazil. Those transfers rely on the providers' contracts and safeguards, as allowed by the LGPD."
         },
         {
           "type": "paragraph",
-          "text": "Any international transfers must be described, where applicable."
+          "text": "We may also disclose data when required by law or by an authority's order."
         }
       ]
     },
     {
-      "id": "integracoes",
-      "title": "Integrations with external services",
+      "id": "google",
+      "title": "Google account data",
       "blocks": [
         {
-          "type": "heading",
-          "text": "Data accessed and purpose"
+          "type": "paragraph",
+          "text": "When you choose to sign in with Google, we receive your name, email and profile picture through the basic scopes openid, email and profile. We use this information only to create and authenticate your Solaria account."
         },
         {
           "type": "paragraph",
-          "text": "The information about integrations, including Google Calendar, must describe the data accessed and the purpose of the access."
-        },
-        {
-          "type": "heading",
-          "text": "Managing or revoking authorization"
+          "text": "We do not access your Gmail, Drive, Contacts, Calendar or any other data in your Google account."
         },
         {
           "type": "paragraph",
-          "text": "It must also explain how users can manage or revoke the authorization, according to the integration actually implemented."
+          "text": "Solaria's use and transfer to any other app of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements. We do not sell this information, use it for advertising or transfer it to third parties, except to the providers listed above to operate the platform."
+        },
+        {
+          "type": "paragraph",
+          "text": "You can revoke access at any time on your Google account permissions page."
+        },
+        {
+          "type": "link",
+          "text": "Google account permissions",
+          "href": "https://myaccount.google.com/permissions"
+        },
+        {
+          "type": "link",
+          "text": "Google API Services User Data Policy",
+          "href": "https://developers.google.com/terms/api-services-user-data-policy"
+        }
+      ]
+    },
+    {
+      "id": "ia",
+      "title": "Artificial intelligence features",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Solaria's assistants, image analysis for alternative text and document validation use artificial intelligence. Content you send to these features is processed by our services and by language model providers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Do not send sensitive data or third-party data you cannot share. Answers may contain mistakes and do not replace the judgment of a qualified professional."
         }
       ]
     },
@@ -138,42 +164,49 @@
       "title": "Storage, security and retention",
       "blocks": [
         {
-          "type": "heading",
-          "text": "Storage and security"
+          "type": "paragraph",
+          "text": "Data is kept in managed databases. Connections use HTTPS, passwords are protected by hashing and internal access is controlled with service credentials."
         },
         {
           "type": "paragraph",
-          "text": "The information about storage and security measures must reflect the processes actually adopted."
-        },
-        {
-          "type": "heading",
-          "text": "Retention and deletion"
-        },
-        {
-          "type": "paragraph",
-          "text": "Retention and deletion periods must also reflect the processes adopted. These points are awaiting confirmation."
+          "text": "We keep data while your account is active and for as long as needed to meet legal obligations or defend rights. When you ask us to delete your account, we delete or anonymize personal data unless the law requires us to keep it. Backups may hold data for a limited time until they are replaced."
         }
       ]
     },
     {
       "id": "direitos",
-      "title": "Rights and requests",
+      "title": "Your rights",
       "blocks": [
         {
-          "type": "heading",
-          "text": "Rights of data subjects"
+          "type": "paragraph",
+          "text": "Under the LGPD you may, at any time:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "confirm that we process your data and access it;",
+            "correct incomplete, inaccurate or outdated data;",
+            "request anonymization, blocking or deletion of unnecessary data or data processed unlawfully;",
+            "request data portability;",
+            "request deletion of data processed with your consent;",
+            "know who we share your data with;",
+            "withdraw consent and be told about the consequences of not consenting;",
+            "lodge a complaint with Brazil's National Data Protection Authority (ANPD)."
+          ]
         },
         {
           "type": "paragraph",
-          "text": "The final version must inform the rights that apply to data subjects."
-        },
-        {
-          "type": "heading",
-          "text": "How to submit requests"
-        },
+          "text": "Send your request to solaria.innetwork@gmail.com. We reply within 15 days."
+        }
+      ]
+    },
+    {
+      "id": "menores",
+      "title": "Minors",
+      "blocks": [
         {
           "type": "paragraph",
-          "text": "It must explain how to submit requests for access, correction or deletion, among others provided for by law. The procedure and the responsible channel are yet to be defined."
+          "text": "Solaria is not intended for people under 18 and we do not knowingly collect data from minors. If we identify a minor's account without a guardian's authorization, we will remove it."
         }
       ]
     },
@@ -182,20 +215,17 @@
       "title": "Contact and updates",
       "blocks": [
         {
-          "type": "heading",
-          "text": "Privacy channel"
+          "type": "paragraph",
+          "text": "Questions and requests: solaria.innetwork@gmail.com."
         },
         {
           "type": "paragraph",
-          "text": "The privacy channel will be announced after the policy is defined and approved."
+          "text": "We may update this policy. The version and the date of the last update appear at the top of this page. Relevant changes will be announced on the platform."
         },
         {
-          "type": "heading",
-          "text": "Update date and versions"
-        },
-        {
-          "type": "paragraph",
-          "text": "The update date and the version history will be announced after the policy is defined and approved."
+          "type": "link",
+          "text": "Write to the privacy channel",
+          "href": "mailto:solaria.innetwork@gmail.com"
         }
       ]
     }

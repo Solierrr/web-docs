@@ -2,16 +2,157 @@
   "id": "terms",
   "title": "Termos de uso",
   "description": "Condições de uso da plataforma Solaria.",
-  "version": null,
-  "updatedAt": null,
+  "version": "1.0",
+  "updatedAt": "2026-10-29",
   "sections": [
     {
-      "id": "introducao",
-      "title": "Introdução",
+      "id": "aceitacao",
+      "title": "Aceitação",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Conteúdo em elaboração. Esta página será atualizada após revisão e aprovação das informações."
+          "text": "Ao criar uma conta ou usar o Solaria, você concorda com estes termos e com a Política de privacidade. Se não concordar, não use a plataforma."
+        }
+      ]
+    },
+    {
+      "id": "sobre",
+      "title": "O que é o Solaria",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "O Solaria é um projeto acadêmico de marketplace de energia solar que conecta consumidores, profissionais e fornecedores."
+        },
+        {
+          "type": "paragraph",
+          "text": "O fluxo de compra é fictício: nenhum pagamento real é processado e os produtos, preços e propostas têm caráter demonstrativo. Nenhuma contratação feita na plataforma obriga o Solaria."
+        }
+      ]
+    },
+    {
+      "id": "conta",
+      "title": "Conta e acesso",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Você deve ter 18 anos ou mais e informar dados verdadeiros.",
+            "Você é responsável por guardar a sua senha e por tudo o que ocorrer na sua conta.",
+            "Avise-nos imediatamente se suspeitar de uso indevido."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uso",
+      "title": "Uso aceitável",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Não é permitido:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "usar a plataforma para fins ilegais ou para enganar outras pessoas;",
+            "enviar conteúdo ofensivo, discriminatório ou que viole direitos de terceiros;",
+            "tentar acessar contas, sistemas ou dados sem autorização;",
+            "sobrecarregar, copiar de forma automatizada ou interferir no funcionamento do serviço;",
+            "enviar documentos falsos ou se passar por outra pessoa ou empresa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "profissionais",
+      "title": "Profissionais, empresas e conteúdo",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Profissionais e fornecedores respondem pelas informações, documentos e propostas que publicam. A validação de certificados é um apoio e não garante a qualificação de ninguém."
+        },
+        {
+          "type": "paragraph",
+          "text": "Você mantém os direitos sobre o conteúdo que envia e nos autoriza a armazená-lo e exibi-lo na plataforma para operar o serviço."
+        }
+      ]
+    },
+    {
+      "id": "ia",
+      "title": "Inteligência artificial",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Os assistentes e as análises automáticas são informativos e podem errar. Eles não substituem a avaliação de um engenheiro ou responsável técnico habilitado, nem a verificação de normas como a NR-10."
+        }
+      ]
+    },
+    {
+      "id": "propriedade",
+      "title": "Propriedade intelectual",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A marca Solaria, o código e o design da plataforma pertencem à equipe do projeto ou a seus licenciantes. Você não pode copiá-los ou reutilizá-los sem autorização, salvo o que as licenças abertas dos repositórios permitirem."
+        }
+      ]
+    },
+    {
+      "id": "responsabilidade",
+      "title": "Disponibilidade e responsabilidade",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "O Solaria é um ambiente acadêmico e de demonstração. Pode ficar indisponível, ser reiniciado ou ter dados apagados sem aviso. O serviço é oferecido no estado em que se encontra."
+        },
+        {
+          "type": "paragraph",
+          "text": "Na medida permitida pela lei, a equipe não responde por perdas decorrentes do uso da plataforma, de contratações entre usuários ou de indisponibilidade."
+        }
+      ]
+    },
+    {
+      "id": "encerramento",
+      "title": "Suspensão e encerramento",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Podemos suspender ou encerrar contas que violem estes termos. Você pode pedir a exclusão da sua conta a qualquer momento pelo canal de privacidade."
+        }
+      ]
+    },
+    {
+      "id": "alteracoes",
+      "title": "Alterações",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Podemos atualizar estes termos. A versão e a data aparecem no topo da página. O uso após a mudança significa concordância com a nova versão."
+        }
+      ]
+    },
+    {
+      "id": "lei",
+      "title": "Lei aplicável",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Estes termos seguem a legislação brasileira. Fica eleito o foro do domicílio do usuário consumidor, quando aplicável o Código de Defesa do Consumidor."
+        }
+      ]
+    },
+    {
+      "id": "contato",
+      "title": "Contato",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dúvidas sobre estes termos: solaria.innetwork@gmail.com."
+        },
+        {
+          "type": "link",
+          "text": "Escrever para a equipe",
+          "href": "mailto:solaria.innetwork@gmail.com"
         }
       ]
     }
