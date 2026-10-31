@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/Solierrr/worker-docs/compare/v0.3.0...v0.4.0) (2026-10-31)
+
+
+### Features
+
+* explain what solaria is on the docs home page ([#5](https://github.com/Solierrr/worker-docs/issues/5)) ([0b9ddf8](https://github.com/Solierrr/worker-docs/commit/0b9ddf891307da89d0125ea306775cccfcf63147))
+
 ## [0.3.0](https://github.com/Solierrr/web-docs/compare/v0.2.0...v0.3.0) (2026-10-29)
 
 
