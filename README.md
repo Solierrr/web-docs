@@ -13,7 +13,7 @@ npm run build
 npm run check
 ```
 
-O build gera páginas HTML para as rotas conhecidas e uma página 404. O Worker usa Cloudflare Workers Static Assets e domínio próprio, sem dependência do cluster. Para publicação, autentique o Wrangler e execute `npm run deploy`; é necessário ter acesso à zona Cloudflare do domínio.
+O build gera páginas HTML para as rotas conhecidas e uma página 404. O Worker usa Cloudflare Workers Static Assets e domínio próprio, sem dependência do cluster. Este repositório se chamava `web-docs`; o script na Cloudflare continua com o nome `web-docs`, definido em `wrangler.jsonc`, porque trocar o nome cria outro Worker e move o domínio. A publicação é o workflow `Deploy` (manual), que roda o build e o `wrangler deploy` com os secrets `CLOUDFLARE_API_TOKEN` e `CLOUDFLARE_ACCOUNT_ID` do repositório; o token (`workers-deploy`) é criado pelo Terraform no `infra-platform`. Se a integração GitHub da Cloudflare ainda estiver ligada no painel, ela publica em paralelo; desligue-a para deixar o workflow como único caminho. `npm run deploy` continua valendo para uma publicação local.
 
 Os documentos legais e de integração contêm avisos de conteúdo pendente: não são políticas aprovadas nem documentação suficiente para verificação OAuth. PDFs podem ser colocados manualmente em `pdfs/` junto ao documento, mas download ainda não foi implementado. As traduções em inglês e espanhol são rascunhos e precisam de revisão antes da publicação.
 
