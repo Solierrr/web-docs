@@ -35,7 +35,7 @@ jobs:
       - name: Keep observability enabled
         run: |
           curl --fail-with-body --silent --show-error --request PATCH \
-            --url "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/workers/scripts/web-docs/script-settings" \
+            --url "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/workers/scripts/worker-docs/script-settings" \
             --header "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
             --header "Content-Type: application/json" \
             --data '{"observability":{"enabled":true}}' > /dev/null
